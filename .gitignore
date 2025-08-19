@@ -1,0 +1,80 @@
+﻿## ========== Visual Studio ==========
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## ========== Build results ==========
+bin/
+obj/
+out/
+
+## ========== .NET Core ==========
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## ========== NuGet ==========
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+*.psmdcp
+*.ps1
+
+## ========== Rider ==========
+.idea/
+
+## ========== Logs ==========
+*.log
+
+## ========== OS files ==========
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.DS_Store
+
+## ========== Others ==========
+*.dbmdl
+*.vscode/
+*.swp
+*.bak
+*.tmp
+
+# Local test databases
+*.mdf
+*.ldf
+
+# dotCover
+*.dotCover
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# User-specific files
+*.tmproj
+*.tmproject
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Azure Pipelines
+.vsts/
+
+# Mac trash
+.Trashes
+
+# JetBrains Rider
+.idea/
+
+# Docker
+**/docker-compose.override.yml
+
+# EF Core Migrations snapshot
+Migrations/*Snapshot.cs
